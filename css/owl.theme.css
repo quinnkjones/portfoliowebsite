@@ -14,7 +14,7 @@
 /* Styling Next and Prev buttons */
 
 .owl-theme .owl-controls .owl-buttons div{
-	color: #F00;
+	color: hsl(12, 97%, 47%);
 	display: inline-block;
 	zoom: 1;
 	*display: inline;/*IE7 life-saver */
@@ -77,7 +77,7 @@
 }
 
 .owl-dots .owl-dot span{
-	color: #F00;
+	color: hsl(12, 97%, 47%);
 	display: inline-block;
 	zoom: 1;
 	*display: inline;/*IE7 life-saver */
