@@ -188,7 +188,7 @@ img { max-width: 100%; }
   padding-bottom: 80px;
 }
 .text-detail {
-  margin-top: 30px;
+  margin-top: 0px;
   color: #5f5f5f;
 }
 
@@ -469,7 +469,7 @@ h5 {
   letter-spacing: 0.8px;
   font-family: 'Roboto Slab', serif;
 }
-p {
+p ul{
   letter-spacing: 0.5px;
   font-size: 13px;
   line-height: 34px;
@@ -758,6 +758,7 @@ ul.portfolio-image li .desc{
   padding: 30px 35px 45px 35px;
   margin-bottom: 30px;
   border: 1px solid rgba(129, 129, 129, 0.1);
+  min-height: 561px;
 }
 .card:before,
 .card:after {
@@ -784,9 +785,42 @@ ul.portfolio-image li .desc{
 .card:hover:before {
   -webkit-transform: scaleY(1);
 }
+
+.card-ed {
+  background: #ffffff;
+  padding: 30px 35px 45px 35px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(129, 129, 129, 0.1);
+  min-height: 419px;
+}
+.card-ed:before,
+.card-ed:after {
+  display: inline-block;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  height: 100%;
+  background: #818181;
+  -webkit-transform: scaleY(0);
+  transition: all 0.2s ease 0.2s;
+}
+.card-ed:before {
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: 0 100%;
+}
+.card-ed:after {
+  top: 0;
+  right: 0;
+  -webkit-transform-origin: 0 0;
+}
+.card-ed:hover:after,
+.card-ed:hover:before {
+  -webkit-transform: scaleY(1);
+}
 /*---------- d. testimonial -----------*/
 #testimonial {
-  background-image: url(../images/testimonial-bg.jpg);
+  background-image: url(../images/circletree.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -796,7 +830,7 @@ ul.portfolio-image li .desc{
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 550px;
+  /*height: 550px;*/
 }
 .list-testimonial {
   display: block;
@@ -924,7 +958,7 @@ ul.portfolio-image li .desc{
   width: 100%;
 }
 .bg-about {
-  background: url('../images/reza.jpg') center;
+  background: url('../images/reza.bak.jpg') center;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -933,7 +967,7 @@ ul.portfolio-image li .desc{
   position: relative;
   padding: 0;
   margin: 0;
-  min-height: 362px;
+  min-height: 480px;
   width: 100%;
   height: 100%;
   float: left;
@@ -1144,7 +1178,7 @@ ul.portfolio-image li .desc{
   list-style: outside none none;
   float: left;
   overflow: hidden;
-  width: 33.33333%;
+  width: 50%;
   font-size: 13px;
 }
 
@@ -1206,7 +1240,7 @@ ul.portfolio-image li .desc{
   background-color: #77ccf1;
 }
 .gplus{
-  background: #d8d8d8;
+  background: hsla(0,0%,75%,1);
 }
 .gplus a:after{
   background: #dd4b39;
