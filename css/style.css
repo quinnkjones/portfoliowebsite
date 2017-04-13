@@ -1259,14 +1259,19 @@ ul.portfolio-image li .desc{
   width: 100%;
   background: #2f2f2f;
   text-align: center;
+
   color: #636363;
 }
 
+.footer-bottom p{
+  display: inline
+}
+
 .footer-img{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    max-width:   20%;
+    display: inline;
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+    max-width:   6%;
 }
 
 
