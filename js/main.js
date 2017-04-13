@@ -90,8 +90,8 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["Computer Engineer", "Computer Scientist", "Research Fellow"],
-        typeSpeed: 100,
+        strings: ["Computer Engineer", "Computer Scientist", "Research Fellow","Font Enthusiast"],
+        typeSpeed: 75,
         backDelay: 900,
         // loop
         loop: true
@@ -123,7 +123,7 @@
       itemsMobile : [479,1],
       autoPlay : false,
       navigation:true,
-
+      navigationText:["About","Contact Info"],
 
       // CSS Styles
       baseClass : "owl-carousel",
