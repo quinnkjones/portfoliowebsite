@@ -509,13 +509,13 @@ p ul{
   opacity: 0.6;
   font-family: 'BPtypewrite';
 }
-.year {
+.job {
   font-size: 26px;
   font-weight: 500;
   margin-bottom: 10px;
   font-family: 'Roboto', sans-serif;
 }
-.job {
+.year {
   font-size: 14px;
   font-weight: 500;
   line-height: 14px;
