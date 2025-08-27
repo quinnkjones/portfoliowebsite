@@ -1,0 +1,370 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{Motiian_2019_CVPR_Workshops}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=0f8bceb848ebb7a0a9a958c928bec5ae}{%
+           family={Motiian},
+           familyi={M\bibinitperiod},
+           given={Saeid},
+           giveni={S\bibinitperiod}}}%
+        {{hash=94eaf429789a0836753aea915dce10b9}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Quinn},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=6768e8033ca092285d015a681060f0ce}{%
+           family={Pidhorskyi},
+           familyi={P\bibinitperiod},
+           given={Stanislav},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3d1c3abf5a2903162305279f0592166c}{%
+           family={Doretto},
+           familyi={D\bibinitperiod},
+           given={Gianfranco},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{4fc824f57d418a59c05bc8770deb4fe6}
+      \strng{fullhash}{9321d933e725a21bbbd9f318f1564aa1}
+      \strng{bibnamehash}{4fc824f57d418a59c05bc8770deb4fe6}
+      \strng{authorbibnamehash}{4fc824f57d418a59c05bc8770deb4fe6}
+      \strng{authornamehash}{4fc824f57d418a59c05bc8770deb4fe6}
+      \strng{authorfullhash}{9321d933e725a21bbbd9f318f1564aa1}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops}
+      \field{month}{6}
+      \field{title}{Unsupervised Learning of Paired Style Statistics for Unpaired Image Translation}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{10.1007/978-3-030-20870-7_26}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=6768e8033ca092285d015a681060f0ce}{%
+           family={Pidhorskyi},
+           familyi={P\bibinitperiod},
+           given={Stanislav},
+           giveni={S\bibinitperiod}}}%
+        {{hash=94eaf429789a0836753aea915dce10b9}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Quinn},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=0f8bceb848ebb7a0a9a958c928bec5ae}{%
+           family={Motiian},
+           familyi={M\bibinitperiod},
+           given={Saeid},
+           giveni={S\bibinitperiod}}}%
+        {{hash=217b1c6ffa0567578ed05a771f7877d8}{%
+           family={Adjeroh},
+           familyi={A\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3d1c3abf5a2903162305279f0592166c}{%
+           family={Doretto},
+           familyi={D\bibinitperiod},
+           given={Gianfranco},
+           giveni={G\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=c28cbc2901395b4ae713740941e45d6f}{%
+           family={Jawahar},
+           familyi={J\bibinitperiod},
+           given={C.V.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bfb71cf26620b3b038faaa059c3341f7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hongdong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=666c12517626c817b8d3a1ba792fc2c2}{%
+           family={Mori},
+           familyi={M\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=205714eb0cc6921c15493da21a574130}{%
+           family={Schindler},
+           familyi={S\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{ab5f0d1fc6686eb9eafbee1d41d660c6}
+      \strng{fullhash}{be5ab0282fa641927b4419b41fd10380}
+      \strng{bibnamehash}{ab5f0d1fc6686eb9eafbee1d41d660c6}
+      \strng{authorbibnamehash}{ab5f0d1fc6686eb9eafbee1d41d660c6}
+      \strng{authornamehash}{ab5f0d1fc6686eb9eafbee1d41d660c6}
+      \strng{authorfullhash}{be5ab0282fa641927b4419b41fd10380}
+      \strng{editorbibnamehash}{a60e6494bd6c8c88558a15e3c5ba569b}
+      \strng{editornamehash}{a60e6494bd6c8c88558a15e3c5ba569b}
+      \strng{editorfullhash}{7eaf6d1d5f19a3982a9baaab788c13a3}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Deep hashing approaches are widely applied to approximate nearest neighbor search for large-scale image retrieval. We propose Spherical Deep Supervised Hashing (SDSH), a new supervised deep hashing approach to learn compact binary codes. The goal of SDSH is to go beyond learning similarity preserving codes, by encouraging them to also be balanced and to maximize the mean average precision. This is enabled by advocating the use of a different relaxation method, allowing the learning of a spherical embedding, which overcomes the challenge of maintaining the learning problem well-posed without the need to add extra binarizing priors. This allows the formulation of a general triplet loss framework, with the introduction of the spring loss for learning balanced codes, and of the ability to learn an embedding quantization that maximizes the mean average precision. Extensive experiments demonstrate that the approach compares favorably with the state-of-the-art while providing significant performance increase at more compact code sizes.}
+      \field{booktitle}{Computer Vision -- ACCV 2018}
+      \field{isbn}{978-3-030-20870-7}
+      \field{title}{Deep Supervised Hashing with Spherical Embedding}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{417\bibrangedash 434}
+      \range{pages}{18}
+    \endentry
+    \entry{DBLP:journals/corr/abs-1804-08197}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6768e8033ca092285d015a681060f0ce}{%
+           family={Pidhorskyi},
+           familyi={P\bibinitperiod},
+           given={Stanislav},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ade15fcafa450d636952e92f598cb4d7}{%
+           family={Morehead},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=94eaf429789a0836753aea915dce10b9}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Quinn},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=4604748ff77264632b584dc71a7096e9}{%
+           family={Spirou},
+           familyi={S\bibinitperiod},
+           given={George\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3d1c3abf5a2903162305279f0592166c}{%
+           family={Doretto},
+           familyi={D\bibinitperiod},
+           given={Gianfranco},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab5f0d1fc6686eb9eafbee1d41d660c6}
+      \strng{fullhash}{573eab2709406a2727f47ff383c6dc8c}
+      \strng{bibnamehash}{ab5f0d1fc6686eb9eafbee1d41d660c6}
+      \strng{authorbibnamehash}{ab5f0d1fc6686eb9eafbee1d41d660c6}
+      \strng{authornamehash}{ab5f0d1fc6686eb9eafbee1d41d660c6}
+      \strng{authorfullhash}{573eab2709406a2727f47ff383c6dc8c}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{syGlass: Interactive Exploration of Multidimensional Images Using Virtual Reality Head-mounted Displays}
+      \field{volume}{abs/1804.08197}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{eprint}
+      \verb 1804.08197
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1804.08197
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1804.08197
+      \endverb
+    \endentry
+    \entry{NIPS2017_7244}{incollection}{}
+      \name{author}{4}{}{%
+        {{hash=0f8bceb848ebb7a0a9a958c928bec5ae}{%
+           family={Motiian},
+           familyi={M\bibinitperiod},
+           given={Saeid},
+           giveni={S\bibinitperiod}}}%
+        {{hash=94eaf429789a0836753aea915dce10b9}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Quinn},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=8a317c71b147fa1dd86dfe9457234bf3}{%
+           family={Iranmanesh},
+           familyi={I\bibinitperiod},
+           given={Seyed},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3d1c3abf5a2903162305279f0592166c}{%
+           family={Doretto},
+           familyi={D\bibinitperiod},
+           given={Gianfranco},
+           giveni={G\bibinitperiod}}}%
+      }
+      \name{editor}{7}{}{%
+        {{hash=e7e74de725116358b68a6e890c026145}{%
+           family={Guyon},
+           familyi={G\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=56e73897155d476124481b099f125669}{%
+           family={Luxburg},
+           familyi={L\bibinitperiod},
+           given={U.\bibnamedelimi V.},
+           giveni={U\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=9b411b6c9cefdde16ffea77ecf612142}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1444141e07dd9549dbb4b8530fe4ec15}{%
+           family={Wallach},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f3857e15544199442f3d4fb2cf6645b4}{%
+           family={Fergus},
+           familyi={F\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c73f06e2fc98c9b0bf52eb5fdce61943}{%
+           family={Vishwanathan},
+           familyi={V\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=36b98b7ab533936cf1b5716148de704f}{%
+           family={Garnett},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
+      }
+      \strng{namehash}{4fc824f57d418a59c05bc8770deb4fe6}
+      \strng{fullhash}{1b5728441349cb2836286cfdda356fcb}
+      \strng{bibnamehash}{4fc824f57d418a59c05bc8770deb4fe6}
+      \strng{authorbibnamehash}{4fc824f57d418a59c05bc8770deb4fe6}
+      \strng{authornamehash}{4fc824f57d418a59c05bc8770deb4fe6}
+      \strng{authorfullhash}{1b5728441349cb2836286cfdda356fcb}
+      \strng{editorbibnamehash}{7cffda9a379be8eb9063eee4eb0f58b3}
+      \strng{editornamehash}{7cffda9a379be8eb9063eee4eb0f58b3}
+      \strng{editorfullhash}{d19b63f60b76ff116a8eb515123b5698}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems 30}
+      \field{title}{Few-Shot Adversarial Domain Adaptation}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{6670\bibrangedash 6680}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb http://papers.nips.cc/paper/7244-few-shot-adversarial-domain-adaptation.pdf
+      \endverb
+      \verb{url}
+      \verb http://papers.nips.cc/paper/7244-few-shot-adversarial-domain-adaptation.pdf
+      \endverb
+    \endentry
+    \entry{6798868}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=12b275a09265a3a985c4c683dd58ec81}{%
+           family={{Morehead}},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ca55cccce2e36552e2b5317abedf6a33}{%
+           family={{Jones}},
+           familyi={J\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=dfdd6417d95a0e03819320a5c1bba27d}{%
+           family={{Blatt}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6258ccfc03acdea8ddc83aee669e159b}{%
+           family={{Holcomb}},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e3c2f777c3e758f07faa5de58280b45e}{%
+           family={{Schultz}},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=47be033189c2383ec2df81ed0884bc03}{%
+           family={{DeFanti}},
+           familyi={D\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a638c3e8370fbba77b9db27f7f032f98}{%
+           family={{Ellisman}},
+           familyi={E\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=be938b6d0d67cf9a365ace09bca22987}{%
+           family={{Doretto}},
+           familyi={D\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f2c5e76114657a47f78ddc75bc36a33f}{%
+           family={{Spirou}},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4982e01c86c329a8dda83d8e9a027ced}
+      \strng{fullhash}{91e9f0ba31b20785d1d2cb619db20bd5}
+      \strng{bibnamehash}{4982e01c86c329a8dda83d8e9a027ced}
+      \strng{authorbibnamehash}{4982e01c86c329a8dda83d8e9a027ced}
+      \strng{authornamehash}{4982e01c86c329a8dda83d8e9a027ced}
+      \strng{authorfullhash}{91e9f0ba31b20785d1d2cb619db20bd5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 IEEE Symposium on 3D User Interfaces (3DUI)}
+      \field{issn}{null}
+      \field{month}{3}
+      \field{title}{Poster: BrainTrek - An immersive environment for investigating neuronal tissue}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{157\bibrangedash 158}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1109/3DUI.2014.6798868
+      \endverb
+      \keyw{biology computing;brain;neurophysiology;virtual reality;immersive environment;3D immersive virtual reality;BrainTrek system;CAVE-based IVR environment;user interface;neuronal tissue investigation;tissue organization;serial sections electron microscopy;brain cellular structure;brain circuit structure;Three-dimensional displays;User interfaces;Neurons;Brain models;Educational institutions;Neuroscience;I.3.7 [COMPUTER GRAPHICS]: Three-Dimensional Graphics and Realism—Virtual reality;H.5.2 [INFORMATION INTERFACES AND PRESENTATION]: User Interfaces—Input devices and strategies;J.3 [Computer Applications]: LIFE AND MEDICAL SCIENCES—Biology and genetics}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

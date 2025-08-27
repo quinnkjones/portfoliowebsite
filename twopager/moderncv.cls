@@ -114,6 +114,7 @@
 \newcommand*\pdfpagemode{UseNone}% do not show thumbnails or bookmarks on opening (on supporting browsers); set \pdfpagemode to "UseOutlines" to show bookmarks
 \RequirePackage{url}
 \urlstyle{tt}
+
 \AtEndPreamble{
   \pagenumbering{arabic}% has to be issued before loading hyperref, as to set \thepage and hence to avoid hyperref issuing a warning and setting pdfpagelabels=false
   \RequirePackage[unicode]{hyperref}% unicode is required for unicode pdf metadata

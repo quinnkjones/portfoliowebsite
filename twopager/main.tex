@@ -19,27 +19,27 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.8]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 \usepackage[
 backend = biber,
 style = musuos,
-minnames = 4,
 sorting = ydnt]{biblatex}
 \addbibresource{pubs.bib}
 
 % personal data
 \name{Quinn}{Jones}
-\title{Professor, Engineer}                               % optional, remove / comment the line if not wantedhttps://v2.overleaf.com/project/56b7b3334bd0e4ca5598e850
+\title{Computer Scientist}                               % optional, remove / comment the line if not wantedhttps://v2.overleaf.com/project/56b7b3334bd0e4ca5598e850
 %\address{5 Farmview St. Fairchance, PA}{15436}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 \phone[mobile]{724 562 5476}                   % optional, remove / comment the line if not wanted
 %\phone[fixed]{724 564 1968}                    % optional, remove / comment the line if not wanted
 %\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
 \email{quinnkjones@gmail.com}                               % optional, remove / comment the line if not wanted
+
 \homepage{quinnkjones.me}                         % optional, remove / comment the line if not wanted
-\extrainfo{linkedin.com/in/qjones1|github.com/quinnkjones|\textbf{quinnkjones.me}}                 % optional, remove / comment the line if not wanted
+\extrainfo{\href{https://linkedin.com/in/qjones1}{linkedin.com/in/qjones1}|\href{https://github.com/quinnkjones}{github.com/quinnkjones}}                 % optional, remove / comment the line if not wanted
 \photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
                               % optional, remove / comment the line if not wanted
 
@@ -61,19 +61,17 @@ sorting = ydnt]{biblatex}
 \makecvtitle
 
 \section{Education}
-\cventry{2025}{MS}{West Virginia University}{Morgantown, WV}{\textit{4.00}}{Study and Research in Computer Vision for tracking, graph neural networks, and medical imaging}
+\cventry{}{PhD-ABD in Computer Science}{West Virginia University}{Morgantown, WV}{\textit{4.00}}{Study and Research in Computer Vision; 3D tracking, 3D Reconstruction, and Neuron Classification}  % arguments 3 to 6 can be left empty
+\cventry{2025}{MS in Computer Science}{West Virginia University}{Morgantown, WV}{\textit{4.00}}{Coursework in Algorithms, Data Mining, Deep Learning, Pattern Recognition, and Graph Neural Networks}  % arguments 3 to 6 can be left empty
 \cventry{2016}{Bachelor's Degrees in Computer Science and Computer Engineering}{West Virginia University}{Morgantown,WV}{\textit{3.89}}{}  % arguments 3 to 6 can be left empty
 
-\section {Coursework}
-\cvitem{}{Application of Neural Networks, 3D Computer Vision, Computer Vision, Computational Photography, Machine Learning, Stochastic Systems Theory, Pattern Recognition, Advanced Analysis of Algorithms, Advanced Data Mining, Deep Learning, Radiance Field Theory, Graph Neural Network Theory}{}
 
 \section{Experience}
     \cventry{06/22--07/25}{Director:Service Assistant Professor}{Wehrle Global Supply Chain Lab}{Morgantown, WV}{}{
         Directed the Wehrle Global Supply Chain Lab towards it's mission of utilizing Virtual Reality and experiential learning in advancement of curriculum 
         \begin{itemize}
-            \item Led students and guests through Virtual Reality curriculum
-            \item Generated 3d printed products for hands-on teaching games
-            \item Collaborated with fellow colleagues to create in-house teaching software and expand curriculum
+            \item Developed Virtual Reality software for quality management and logistics courses
+            \item Used 3d printing to create physical models for experiential learning in supply chain courses
             \item Created and taught online section of introductory supply chain course  
         \end{itemize}
     }
@@ -101,7 +99,12 @@ sorting = ydnt]{biblatex}
         \item Domain Adaptation in images 
     \end{itemize}
     }
+    
   
+\section{Skills}
+\cvitem{Languages}{Python, C/C++, C\#, Java, SQL, MATLAB, \LaTeX}
+\cvitem{Technologies}{PyTorch, TensorFlow, OpenCV, Git, Colmap, Spark, AWS, Unity3D, Docker}
+\cvitem{Projects}{Data collection, Deep Learning pipelines, Web applications, REST APIs, VR applications, Realtime Mapping}
     
 
     
@@ -115,15 +118,15 @@ sorting = ydnt]{biblatex}
 
 \section{Awards and Honors}
 \cvitem{WVU's Ruby Distinguished Doctoral Fellowship}{Hazel Ruby McQuain Charitable Trust, 2016}{WVU's top fellowship awarded in the STEM area\\}
-\cvitem{President}{Upsilon Pi Epsilon: WVU}{Elected and serve as president of the WVU chapter of UPE since 05/2018 to present duties include organizing yearly recruitment, induction, and participation in national activities\\}
+\cvitem{President}{Upsilon Pi Epsilon: WVU}{Elected and serve as president of the WVU chapter of UPE from 05/2018 to 08/2019 duties include organizing yearly recruitment, induction, and participation in national activities\\}
 \cvitem{Student Wellness Ambassador}{Student Wellbeing: Promotion and Education}{Conduct peer-to-peer health education on topics related to stress, sexual health, and safe drinking habits with college students.}\\
 \cvitem{Second Place Mylan Hack Summit 2015}{Mylan Pharmaceuticals}{Worked in a five person design team on an idea brainstorming and sharing platform Placed second out of twenty-nine competent teams from regional Universities}\\
-\cvitem{Eta Kappa Nu Honorary Fraternity}{Corresponding Secretary}{Managed the membership invitations for new inductees\\}
+\cvitem{Eta Kappa Nu Honorary Fraternity}{Corresponding Secretary}{Managed and automated the membership invitations for new inductees\\}
 \cvitem{Other Fraternal Organizations}{Tau Beta Pi, Fall 2014}{}
 
 
 \section{Personal Information}
-\cvitem{}{US Citizen, native English speaker with basic French background, well-travelled}{Leisure Interests: dog training and care, cooking, fine dining, reading, watching films, modern and postmodern art (particularly M.C. Escher, Marcel Duchamp, and Dale Chihuly)}
+\cvitem{}{US Citizen, native English speaker, valid passport, accustomed to travelling abroad, willing to relocate or work remotely.}
 
 
 
