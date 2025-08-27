@@ -1,0 +1,176 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,
+    pdfborder={0 0 0},
+   allbordercolors=white    % white border color for all
+}
+\addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0395DE}
+
+\begin{document}
+\header{Quinn}{Jones}
+      {Computer Scientist, Engineer, and Professor}
+      {}
+      
+% Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+......
+}}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+\section{}%hidden section??
+    ~
+    ~
+    ~
+    ~
+    ~
+  \section{Phone}
+    (724) 562-5476
+    ~
+  \section{E-Mail}
+    \href{mailto:quinnkjones@gmail.com}{\textbf{quinnkjones}\\@gmail.com}
+
+    ~
+  \section{Web \& Git}
+    \href{http://quinnkjones.me}{quinnkjones.me}
+    \href{https://github.com/quinnkjones}{github.com/quinnkjones}
+    \href{http://www.linkedin.com/in/qjones1}{linkedin.com/in/qjones1}
+    ~
+  \section{Programming}
+    \begin{itemize}
+        \item Python
+        \item C,C++, \& C\#
+        \item BASH
+        \item Tensorflow,Pytorch
+        \item Java \& Android
+        \item \LaTeX
+    \end{itemize}
+    ~
+  \section{Proficiencies}
+    \begin{itemize}
+        \item \textbf{Deep Learning:}
+        \item Classification
+        \item Domain Adaptation
+        \item Graph Neural Networks
+        \item Medical Imaging
+        \item \textbf{VR}
+        \item \textbf{3D Printing}
+        \item \textbf{ML Infrastructure}
+        \item AWS 
+        \item COLAB
+        \item In-house
+        
+        
+        
+         
+    \end{itemize}
+    ~
+ 
+ 
+\end{aside}
+
+
+
+\section{Education}
+\begin{entrylist}
+    \entry
+    {2025}
+    {MS Computer Science}
+    {\begin{flushright}West Virginia University; Morgantown, WV\end{flushright}}
+    {Computer vision research with tracking, graph neural networks, and medical images. GPA: 4.0 
+    }
+    \entry
+    {2016}
+    {Bachelor's Degrees in Computer Science and Computer Engineering}
+    {\begin{flushright}West Virginia University; Morgantown, WV\end{flushright}}
+    {Research including Software Engineering and Mobile Medical Devices
+    GPA: 3.89  Graduating Summa Cum Laude
+    }
+  
+  
+\end{entrylist}
+
+\section{Experience}
+\begin{entrylist}
+    \entry{06/22 - 07/25}
+    {Director Wehrle Global Supply Chain Lab}
+    {
+    WVU
+    }
+    { Directed the Lab towards it's mission of utilizing Virtual Reality and experiential learning in advancement of curriculum . }
+    \entry{08/19 - 06/22}
+    {Research Assistant}
+    {
+    WVU
+    }
+    { Performed research in the field of Structure From Motion in mixed fisheye and perspective domain, tackling issues with anistropic subsampling. }
+    \entry{05/19 - 08/19}
+    {Machine Learning Intern}
+    {
+    Adobe Inc.
+    }
+    {
+    Performed research in search to improve sales of stock photographs
+    }
+    \entry{05/16 - 05/19}
+    {Ruby Distinguished Doctoral Research Fellow}
+    {
+     WVU
+    }
+    { Performed independent research into Computer Vision methods in video domains, specifically issues of action recognition and realistic video generation of actions. Publication at NeurIps and ACCV. }
+
+    
+\end{entrylist}
+
+\section{Publications}
+\begin{entrylist}
+
+    \entry {June 2019} {Unsupervised Learning
+of Paired Style Statistics for Unpaired Image Translation”. In: The IEEE Conference on Computer} {CVPR Workshops 2019 }{Motiian, Saeid, Quinn Jones, Stanislav Pidhorskyi, and Gianfranco Doretto}
+    \entry{Dec. 2018}{Deep Supervised Hashing with Spherical Embedding}{ACCV 2018}{S. Pidhorskyi, Q. Jones, S. Motiian, D. Adjeroh, and G. Doretto}    
+    \entry{Nov. 2017}{Few-Shot Adversarial Domain Adaptation}{NeurIps 2017}{S. Motiian, Q. Jones, S. M. Iranmanesh, G. Doretto}
+
+}
+\end{entrylist}
+
+\section{Awards, Honors, and Activities}
+\begin {entrylist}
+\notabentry{WVU's Ruby Distinguished Doctoral Fellowship}{Hazel Ruby McQuain Charitable Trust}{WVU's top fellowship awarded}
+
+\notabentry{Upsilon Pi Episilon Honorary Fraternity}{President 2016}{Lead the WVU chapter of UPE, the honorary fraternity for Computer Scientists, including organizing members, officers, spending, etc.}
+    
+\notabentry{Other Organizations}{Inducted}{Eta Kappa Nu, Spring 2014; Tau Beta Pi, Fall 2014}
+    
+\notabentry{Volunteering}{WellWVU Student Wellness Ambassador Team}{Conduct peer-to-peer health education}
+    
+\end{entrylist}
+
+
+
+
+%%% This piece of code has been commented by Karol Kozioł due to biblatex errors. 
+% 
+%\printbibsection{article}{article in peer-reviewed journal}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+%\end{refsection}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+%\printbibsection{misc}{other publications}
+%\printbibsection{report}{research reports}
+
+\end{document}
