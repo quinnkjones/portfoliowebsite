@@ -1,0 +1,100 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.83]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+
+
+\recipient{internet reader}{quinnkjones.me}
+% personal data
+\opening{Dear Reader,}
+\closing{Sincerely,}
+\name{Quinn}{Jones}
+\title{Computer Scientist}                               % optional, remove / comment the line if not wantedhttps://v2.overleaf.com/project/56b7b3334bd0e4ca5598e850
+%\address{5 Farmview St. Fairchance, PA}{15436}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{724 562 5476}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{724 564 1968}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{quinnkjones@gmail.com}                               % optional, remove / comment the line if not wanted
+
+\homepage{quinnkjones.me}                         % optional, remove / comment the line if not wanted
+\extrainfo{\href{https://linkedin.com/in/qjones1}{linkedin.com/in/qjones1}|\href{https://github.com/quinnkjones}{github.com/quinnkjones}}                 % optional, remove / comment the line if not wanted
+
+                              % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+
+%\makecvtitle
+\makelettertitle
+
+
+\section{About Me}
+
+I am a computer scientist with a strong background in software development, machine learning, and data mining.
+I have applied my skills on everything from the minutiae of microscopy data, the grounded reality of business information, to the vastness of the space domain. 
+That is one of my key strengths and passions in software is using all of the opportunities to learn new things about the problem domains and to be flexible in my thinking and application. 
+I am currently seeking new opportunities to apply my skills and knowledge in a dynamic and challenging environment.
+
+\section {Education}
+
+In December of 2025 I will graduate with my MS in Computer Science from West Virginia University, despite still being in the program I am available for full-time work.  
+I had qualified as a PhD candidate and completed all other requirements but chose to leave the program before dissertation due to personal reasons.
+In May of 2016 I graduated with two BS degrees in Computer Science and in Computer Engineering from West Virginia University.
+
+\section {Recent Work}
+
+Most recently I held the position of Director of the Wehrle Global Supply Chain Lab at West Virginia University's John Chambers College of Business and Economics.
+In this role I was responsible for establishing the lab's first projects, which included my experience with data mining and virtual reality, but also required me to independently learn 3D printing and business concepts.
+Prior to this role I was a graduate research assistant in the WVU Vision Lab, where my research focused on 3D fiducial point detection, microscopy classification, and graph neural networks. 
+This involved developing and implementing machine learning algorithms in Python using libraries such as TensorFlow and PyTorch, but also required a strong understanding of computer vision and image processing techniques using OpenCV and scikit-image to analyze images in near-realtime.
+
+\section{Why your organization?}
+
+This is the version of this letter that I post to my website for general audiences so I don't know who you are, but if you are a hiring manager or recruiter and you would like to know more please email me at the address above so that I can learn more about you specifically.
+I am most interested in working with organizations that value their staff and provide opportunities for growth as I am, if nothing else, a lifelong learner.
+%\clearpage\end{CJK*}    
+
+
+
+\makeletterclosing
+
+% if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+
+\end{document}
+
+
+%% end of file `template.tex'.
